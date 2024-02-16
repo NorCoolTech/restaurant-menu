@@ -19,7 +19,6 @@ const App = () => {
 
     const newItems = menu.filter((item) => item.category === category)
     setMenuItems(newItems);
-    console.log(newItems);
   }
 
 
@@ -29,9 +28,7 @@ const App = () => {
       <section className="menu">
         <Title text="our menu" />
         <Categories categories={categories} filterItems={filterItems} />
-        
           <Menu items={menuItems} />
-     
       </section>
     </main>
   );

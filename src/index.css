@@ -215,7 +215,7 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .item-info h5 {
@@ -230,7 +230,7 @@ ul {
 }
 
 .item-text {
-  line-height: 2;
+  line-height: 1.45;
   color: var(--grey-500);
 }
 
@@ -239,6 +239,7 @@ ul {
 }
 .menu-item {
   max-width: 25rem;
+  height: 30rem;
 }
 
 @media screen and (min-width: 992px) {
